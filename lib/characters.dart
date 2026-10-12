@@ -71,6 +71,6 @@ class Archer extends Character {
 
   @override
   String toString() {
-    return '🏹 лучник $name (шанс крита: ${(critChance * 100).round()}$)';
+    return '🏹 лучник $name (шанс крита: ${(critChance * 100).round()}%)';
   }
 }
